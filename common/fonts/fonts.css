@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'pretendardThin';
+    src: url(../fonts/Pretendard-Thin.woff) format('woff'),
+    url(../fonts/Pretendard-Thin.woff2) format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pretendardR';
+    src: url(../fonts/Pretendard-Regular.woff) format('woff'),
+    url(../fonts/Pretendard-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pretendardM';
+    src: url(../fonts/Pretendard-Medium.woff) format('woff'),
+    url(../fonts/Pretendard-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+button.active {
+    background-color: #000; color: #fff;
+    transition: 0.4s;
+}

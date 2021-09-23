@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* common */
+body {margin: 0;}
+ul {padding: 0; list-style: none; margin: 0;}
+button {
+    outline: none; border: 1px solid #000; background-color: #fff; padding:2px 0 0 30px; width: 220px ; height: 46px; box-sizing: border-box; font-size: 17px; text-align: left; font-family:'Saira Condensed', sans-serif ; font-weight: 400;
+    background: url(../images/buttonarrow.png) no-repeat 60% 50% /cover;
+    background-size: 41px 12px;
+    cursor: pointer;
+}
+
+h2 {
+    font-family:'Saira Condensed', sans-serif ; font-weight: 400; font-size: 53px; margin-top: 99px;
+}
+
+a {
+    text-decoration: none; color: inherit; display: block;
+}
+.conts {
+    margin: 250px 0;
+}
+/* main */
+.wrap .videobox {
+    width: 100%; height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrap .videobox .youtubeVideo {
+    width: 103vw; height: 100%;
+    margin: 0 auto;
+    z-index: -1;
+}
+.wrap .videobox .bgtxtbox {
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 0px;
+    color: #fff;
+}
+.wrap .videobox .bgtxtbox .bgtxt {
+    width: 400px; position: absolute; font-size: 91px;
+}
+.wrap .videobox .bgtxtbox .bgtxt1{
+    width: 800px;
+    font-size: 134px;
+    top: 135px; right: 550px;
+    text-align: center;
+}
+.wrap .videobox .bgtxtbox .bgtxt2{
+    top: 167px; margin: 0;
+}
+.wrap .videobox .bgtxtbox .bgtxt3{top: 167px; right: 0; text-align: right;}
+.wrap .videobox .bgtxtbox .bgtxt4{bottom: 248px;}
+.wrap .videobox .bgtxtbox .bgtxt5{bottom: 248px; right: 0; text-align: right;}
+/* contents */
+/* contents sec1 */
+/* contents sec2 */
+.contents .conts {
+    width: 100%;
+    height: 895px;
+    display: flex;
+    justify-content:right;
+}
+.contents .txtBox {
+    width: 470px; height: 100%; box-sizing: border-box;
+}
+.contents .txtBox p {
+    font-family: 'pretendardR';
+}
+.contents .sec2 .txtBox ul {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 120px;
+}
+.contents .sec2 .txtBox ul li:nth-child(2){
+    text-indent: -9999px; background: url(../images/imagearrow.png) no-repeat 50% 50% / contain;
+}
+/* contents sec3 */
+.contents .sec3 {
+    justify-content: left; background-color: #000; color: #fff; height: 885px;
+}
+.contents .sec3 .txtBox {
+    padding-left: 75px;
+} 
+
+.contents .sec3 .txtBox p {
+    margin: 50px 0; font-size: 24px;
+    line-height: 1.4;
+}
+.contents .sec3 .txtBox h3 {
+    border: 1px solid #fff; font-size: 28px; width: 220px; padding: 14px; text-align: center; font-family: 'pretendardM'; box-sizing: border-box;
+}
+.contents .sec3 .txtBox button {
+    border-color:#fff ; color: #fff;
+}
+.contents .sec3 .txtBox button.firstbtn {
+    text-align: right;
+    padding-right: 30px;
+    background: url(../images/buttonarrowWL.png) no-repeat 20% 50%;
+    margin-bottom: 45px;
+}
+.contents .sec3 .txtBox button.lastbtn {
+    background: url(../images/buttonarrowWR.png) no-repeat 80% 50%;
+    margin-left:45% ;
+}
+/* contents sec4 */
+.contents .sec4 .scheduleBox {
+    width: 1114px; height: 100%;
+    grid-template-columns:80px repeat(5,1fr) 80px;
+    grid-template-rows:30px repeat(5, 1fr);
+}
+
+.contents .sec4 .txtBox {
+    padding-right: 75px;
+} 
+/* contents sec5 */
+.contents .sec5 {
+    justify-content: left; background-color: #000; color: #fff; height: 897px;
+}
+.contents .sec5 .txtBox {
+    padding-left: 75px;
+}
+.contents .sec5 .txtBox .kofont {
+    font-family: 'pretendardR';
+}
+.contents .sec5 .txtBox p {
+    font-size: 18px;
+} 
+.contents .sec5 .txtBox h3 {background-color: #fff; color: #000; font-family: 'Saira Condensed', sans-serif; font-size: 24px;}
+.contents .sec5 .sns {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    margin-top: 70px;
+}
+.contents .sec5 .sns li a {
+    width: 62px; height: 62px; text-indent: -9999px;
+}
+.contents .sec5 .sns .youtube {
+    background: url(../images/youtube.svg) no-repeat 50% 50% / contain;
+}
+.contents .sec5 .sns .instagram {
+    background: url(../images/instagram.svg) no-repeat 50% 50% / contain;
+}
+.contents .sec5 .sns .facebook {
+    background: url(../images/facebook.svg) no-repeat 50% 50% / contain;
+}
+/* footer */
+footer {
+    width: 1162px; margin: 0 auto; border-bottom: 3px solid #000;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    font-family: 'pretendardThin'; font-size: 18px;
+    font-weight: 100;
+}
+footer p strong {
+    font-family: 'Saira Condensed', sans-serif;
+}
