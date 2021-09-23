@@ -117,12 +117,7 @@ a {
 .contents .sec5 {
     justify-content: left; background-color: #000; color: #fff; height: 897px;
 }
-.contents .sec5 #map {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.contents .sec5 #map:hover {
-    background-color: rgba(0, 0, 0, 0);
-}
+
 .contents .sec5 .txtBox {
     padding-left: 75px;
 }
