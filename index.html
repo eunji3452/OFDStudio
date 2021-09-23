@@ -46,6 +46,9 @@
     <!-- //// js -->
     <script src="common/plugin/jquery-3.6.0.min.js"></script>
     <script src="common/plugin/jquery.mb.YTPlayer.min.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=de1b9020d9e80dde7fd8e758c4229bde"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=LIBRARY"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=clusterer"></script>
     <script defer src="script/script.js"></script>
     <script defer src="script/schedule.js"></script>
 </head>
@@ -238,9 +241,7 @@
                 </div>
             </div>
             <div class="conts sec5" id="Map">
-                <div class="map">
-                    <img src="images/map.png" alt="">
-                </div>
+            <div id="map" style="width:1114px;height:897px;"></div>
                 <div class="txtBox">
                     <h2>Address</h2>
                     <p>서울 마포구 와우산로17길 10 3층</p>
@@ -268,6 +269,5 @@
             <p><strong>Phone</strong> : 010 - 0528 - 8253</p>
         </footer>
     </div>
-
 </body>
 </html>
