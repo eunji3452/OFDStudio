@@ -106,14 +106,82 @@ a {
 /* contents sec4 */
 .contents .sec4 .scheduleBox {
     width: 58.020833vw; height: 100%;
+    display: grid;
     grid-template-columns:4.166666vw repeat(5,1fr) 4.166666vw;
     grid-template-rows:1.5625vw repeat(5, 1fr);
 }
+.contents .sec4 .scheduleBox ul {
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    display: flex;
+    flex-flow: wrap column;
+    padding: 0.3vw;
+
+}
+
+.contents .sec4 .scheduleBox ul {
+    font-family: 'pretendardThin';
+    font-size: 14px;
+}
+.contents .sec4 .scheduleBox ul li {
+    padding-bottom: 0.2vw;
+}
+.contents .sec4 .scheduleBox .dayname {
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+.contents .sec4 .scheduleBox .dayname1 {
+    grid-column:2/3 ;   
+}
+
+.contents .sec4 .scheduleBox ul :nth-child(1) {
+    border-radius: 50%;
+    width: 1vw; height: 1vw; text-align: center;
+    color: #fff;
+    padding: 0.366666vw;
+    background-color: purple;
+    margin-left: auto;
+}
+
+
+.contents .sec4 .scheduleBox .d1 { grid-column:4/5 ; grid-row: 2/3; border-left: solid #dedede 1px;}
+.contents .sec4 .scheduleBox .d2 { grid-column:5/6 ; grid-row: 2/3;}
+.contents .sec4 .scheduleBox .d3 { grid-column:6/7 ; grid-row: 2/3;}
+.contents .sec4 .scheduleBox .d4 { grid-column:2/3 ; grid-row: 3/4;}
+.contents .sec4 .scheduleBox .d5 { grid-column:3/4 ; grid-row: 3/4;}
+.contents .sec4 .scheduleBox .d6 { grid-column:4/5 ; grid-row: 3/4;}
+.contents .sec4 .scheduleBox .d7 { grid-column:5/6 ; grid-row: 3/4;}
+.contents .sec4 .scheduleBox .d8 { grid-column:6/7 ; grid-row: 3/4;}
+.contents .sec4 .scheduleBox .d9 { grid-column:2/3 ; grid-row: 4/5;}
+.contents .sec4 .scheduleBox .d10 { grid-column:3/4 ; grid-row: 4/5;}
+.contents .sec4 .scheduleBox .d11 { grid-column:4/5 ; grid-row: 4/5;}
+.contents .sec4 .scheduleBox .d12 { grid-column:5/6 ; grid-row: 4/5;}
+.contents .sec4 .scheduleBox .d13 { grid-column:6/7 ; grid-row: 4/5;}
+.contents .sec4 .scheduleBox .d14 { grid-column:2/3 ; grid-row: 5/6;}
+.contents .sec4 .scheduleBox .d15 { grid-column:3/4 ; grid-row: 5/6;}
+.contents .sec4 .scheduleBox .d16 { grid-column:4/5 ; grid-row: 5/6;}
+.contents .sec4 .scheduleBox .d17 { grid-column:5/6 ; grid-row: 5/6;}
+.contents .sec4 .scheduleBox .d18 { grid-column:6/7 ; grid-row: 5/6;}
+.contents .sec4 .scheduleBox .d19 { grid-column:2/3 ; grid-row: 6/7;}
+.contents .sec4 .scheduleBox .d20 { grid-column:3/4 ; grid-row: 6/7;}
+.contents .sec4 .scheduleBox .d21 { grid-column:4/5 ; grid-row: 6/7;}
+.contents .sec4 .scheduleBox .d22 { grid-column:5/6 ; grid-row: 6/7;}
 
 .contents .sec4 .txtBox {
     padding-right: 3.90625vw
 
 } 
+
+
+/* schedule */
+
+.contents .sec4 
+
+
+
+
+
+
 /* contents sec5 */
 .contents .sec5 {
     justify-content: left; background-color: #000; color: #fff; height: 46.71875vw;
